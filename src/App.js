@@ -3,6 +3,8 @@ const template = `
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
     <router-view />
+</div>
+<div>
     <button @click="submit">送信</button>
 </div>
 `
