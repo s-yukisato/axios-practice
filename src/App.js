@@ -5,6 +5,7 @@ const template = `
     <router-view />
 </div>
 <div>
+    <p>AXIOS</p>
     <button @click="submit">送信</button>
 </div>
 `
